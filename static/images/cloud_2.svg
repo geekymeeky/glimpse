@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440.204" height="1440.204" viewBox="0 0 1440.204 1440.204">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.498" y1="0.817" x2="0.502" y2="0.137" gradientUnits="objectBoundingBox"  >
+      <stop offset="0" stop-color="#7237bd"/>
+      <stop offset="0.035" stop-color="#7834ba"/>
+      <stop offset="0.363" stop-color="#b122a4"/>
+      <stop offset="0.644" stop-color="#da1495"/>
+      <stop offset="0.865" stop-color="#f30c8b"/>
+      <stop offset="0.998" stop-color="#fd0988"/>
+    </linearGradient>
+  </defs>
+  <circle id="MAIN_GLOW" data-name="MAIN GLOW" cx="720.102" cy="720.102" r="720.102" opacity="0.77" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+</svg>
