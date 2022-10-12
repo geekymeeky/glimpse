@@ -130,17 +130,31 @@ main{
     width: calc(2vw + 2vh);
 }
 
-.service__card > div{
+
+.service__card{
+
+    border-radius: 2vw;
+    height: 420px;
+}
+/* .service__card > div{
     background: transparent;
     border-radius: 10px;
+    border: 1px solid #fff;
+} */
+
+.service__card > div{
+    background: transparent;
 }
 
+
 .service__card > div:nth-of-type(odd){
+    position: relative;
+    top: -5px;
     background: linear-gradient(49.88deg, #38344F 4.62%, #AE66C8 95.2%);
+    border-radius: 2vw;
+    border: 4px solid linear-gradient(49.88deg, #38344F 4.62%, #AE66C8 95.2%);
 }
-/* .service__card > .card-body:nth-of-type(even){
-    
-} */
+
 
 .MultiCarousel {
     float: left;
