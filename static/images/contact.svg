@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1647.289" height="382.604" viewBox="0 0 1647.289 382.604">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fcdc00"/>
+      <stop offset="0.113" stop-color="#fbd506"/>
+      <stop offset="0.275" stop-color="#fbc419"/>
+      <stop offset="0.467" stop-color="#faa838"/>
+      <stop offset="0.682" stop-color="#f98064"/>
+      <stop offset="0.913" stop-color="#f84e9b"/>
+      <stop offset="0.993" stop-color="#f83cb0"/>
+      <stop offset="1" stop-color="#f83cb0"/>
+    </linearGradient>
+  </defs>
+  <line id="Line_1" data-name="Line 1" y1="179.324" transform="translate(831.254 49.983)" fill="none" stroke="#707070" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+  <g id="LET_S_TALK" data-name="LET&apos;S TALK" transform="translate(-128.746 -10824.701)">
+    <path id="Path_2" data-name="Path 2" d="M693.158,11126.322h16.268v64.83h34.825v14.7H693.158Z" fill="#fff"/>
+    <path id="Path_3" data-name="Path 3" d="M767.746,11181.512c1.928,7.592,8.073,11.81,16.75,11.81a26.89,26.89,0,0,0,16.629-6.025l6.748,11.087a36.47,36.47,0,0,1-23.859,8.916c-18.437.362-33.018-13.978-32.656-31.209a30.765,30.765,0,0,1,31.209-31.211c16.509,0,28.078,12.171,28.078,27.716a38.368,38.368,0,0,1-1.085,8.917Zm27.113-11.447c-.12-7.351-5.784-12.051-12.894-12.051-6.869,0-12.412,4.7-14.219,12.051Z" fill="#fff"/>
+    <path id="Path_4" data-name="Path 4" d="M861.613,11205.853a46.054,46.054,0,0,1-11.207,1.446c-15.062,0-23.859-7.471-23.859-22.413v-24.942h-9.4v-13.738h9.4v-15.063h16.268v15.063h16.87v13.738h-16.87v23.5c0,6.748,3.374,9.278,11.086,9.278.965,0,3.495-.121,7.712-.481Z" fill="#fff"/>
+    <path id="Path_5" data-name="Path 5" d="M876.191,11185.85c5.181,5.424,10.845,8.073,16.749,8.073,4.339,0,7.592-1.686,7.592-4.939,0-2.53-1.687-3.5-6.146-5.423l-6.386-2.651c-10.966-4.458-16.268-9.4-16.268-18.2,0-11.207,8.917-17.835,21.931-17.835,8.918,0,16.028,3.013,21.449,8.917l-8.193,10a19.127,19.127,0,0,0-13.376-5.664c-3.976,0-6.386,1.446-6.386,4.217,0,2.29,1.566,3.374,6.266,5.3l5.783,2.409c11.569,4.7,16.75,9.4,16.75,18.2,0,5.905-2.169,10.6-6.627,13.979q-6.507,5.06-16.629,5.06c-10.484,0-19.281-4.337-24.7-11.567Z" fill="#fff"/>
+    <path id="Path_6" data-name="Path 6" d="M975,11141.023H949.574v-14.7h67.24v14.7H991.267v64.829H975Z" fill="#fff"/>
+    <path id="Path_7" data-name="Path 7" d="M1068.989,11205.853h-14.943v-5.783c-4.337,4.459-10.6,7.229-18.2,7.229-12.653,0-20.606-7.35-20.606-17.834,0-10.725,8.676-17.352,22.534-17.352h14.942v-2.651c0-6.628-3.856-10.484-11.086-10.484-6.146,0-10.484,2.53-15.786,8.194l-8.435-10q10.3-12.292,26.028-12.292c15.545,0,25.547,9.038,25.547,25.547Zm-16.268-23.015h-12.773c-5.3,0-8.315,2.048-8.315,6.025s3.374,6.507,8.556,6.507c7.109,0,12.532-4.941,12.532-11.81Z" fill="#fff"/>
+    <path id="Path_8" data-name="Path 8" d="M1084.652,11115.477h16.267v90.376h-16.267Z" fill="#fff"/>
+    <path id="Path_9" data-name="Path 9" d="M1157.313,11205.853l-23.98-33.017v33.017h-16.267v-90.376h16.267v56.154l21.45-25.426h19.28l-22.413,26.39,24.22,33.258Z" fill="#fff"/>
+    <path id="Path_10" data-name="Path 10" d="M1203.1,11157.291c5.423-4.458,7.11-6.387,7.11-10.122a7.217,7.217,0,0,0-7.591-7.35c-4.338,0-7.713,3.012-10,9.157l-13.255-5.784c3.374-12.051,12.17-18.316,23.738-18.316,13.376,0,23.74,8.556,23.74,21.088,0,6.748-2.893,11.448-10,17.593-6.628,5.784-8.435,7.352-8.435,10.6a22.2,22.2,0,0,0,.24,2.531h-13.737a14.434,14.434,0,0,1-1.325-5.784C1193.582,11166.449,1196.715,11162.473,1203.1,11157.291Zm-.843,27.595a11.207,11.207,0,1,1-11.327,11.207A11.037,11.037,0,0,1,1202.258,11184.886Z" fill="url(#linear-gradient)"/>
+  </g>
+  <g id="METEORS" transform="translate(-128.746 -10824.701)">
+    <line id="Line_2" data-name="Line 2" y1="223.923" x2="283.515" transform="translate(1474.604 10842.617)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="25.512"/>
+    <line id="Line_3" data-name="Line 3" y1="109.761" x2="136.269" transform="translate(1616.361 10986.217)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="25.512"/>
+    <line id="Line_4" data-name="Line 4" y1="112.163" x2="137.423" transform="translate(1467.417 11039.896)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="14.173"/>
+  </g>
+  <g id="METEORS-2" data-name="METEORS" transform="translate(-128.746 -10824.701)">
+    <line id="Line_5" data-name="Line 5" x1="197.225" y1="155.771" transform="translate(250.183 10881.17)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="19.843"/>
+    <line id="Line_6" data-name="Line 6" x1="172.723" y1="139.124" transform="translate(302.258 11014.375)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="25.512"/>
+    <line id="Line_7" data-name="Line 7" x1="243.632" y1="198.849" transform="translate(144.699 10959.069)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="22.677"/>
+  </g>
+</svg>
