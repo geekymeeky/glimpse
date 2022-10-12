@@ -16,18 +16,17 @@
 }
 
 
-
 body{
     background-color: #191930;
     background-repeat: no-repeat;
-    background-image:  url("../static/images/cloud_1.svg"), url("../static/images/cloud_0.svg");
-    /* background-image:  url("../static/images/cloud_1.svg"), url("../static/images/cloud_2.svg"), url("../static/images/cloud_0.svg"); */
-    background-blend-mode: screen;
+    /* background-image:  url("../static/images/cloud_1.svg"), url("../static/images/cloud_0.svg"); */
+    background-image:   url("../static/images/cloud_2.svg");
     background-size: 70%;
-    background-position-y: 10%;
+    background-position-y: -20vh;
     background-position-x: 50%;
     font-family: 'Cera Pro Regular', sans-serif;
     color: #fff;
+
 }
 
 main{
@@ -37,6 +36,19 @@ main{
     flex-direction: column;
     background-color: #0d0b179f;
     border-radius: 2vw;
+}
+
+.section{
+    padding: calc(2vw + 1vh) 5vw;
+}
+
+#hero{
+    background-image:  url("../static/images/cloud_1.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-blend-mode: multiply;
+
 }
 
 .nav-link {
@@ -49,39 +61,39 @@ main{
 
 .hero__text{
     color: #fff;
-    font-size: 3.9rem;
-    font-family: 'Cera Pro Bold';
-    line-height: 4.5rem;
+    font-size: 3rem;
+    font-family: 'Cera Pro Medium';
+    line-height: 2rem;
     letter-spacing: 0.2rem;
+    font-weight: 500;
 }
 .hero__text span:nth-of-type(1){
-    font-family: 'Cera Pro Black';
-    font-size: 7.5rem;
+    font-family: 'Cera Pro Medium';
+    font-size: 5.5rem;
     letter-spacing: 0.8rem;
-    line-height: 8rem;
+    line-height: 6rem;
+    font-weight: 400;
 }
 .hero__text span:nth-of-type(2){
-    font-family: 'Cera Pro Bold';
-    font-size: 3rem;
+    font-family: 'Cera Pro Medium';
+    font-size: 2rem;
     letter-spacing: 1rem;
 }
 
-.hero__img{
-    width: 60%;
-    object-fit: cover;
-    position: absolute;
-    top: -10%;
-    left: 50%;
-    transform: translateX(-50%);
+.hero__strokes{
+    padding-right: 4rem;
 }
 
+.navbar-brand>img{
+    width: 10rem;
+}
 
 /*  About Section*/
 
 .title{
-    font-family: 'Cera Pro Bold';
+    font-family: 'Cera Pro Medium';
     font-size: 3rem;
-    font-weight: lighter;
+    font-weight: 400;
 }
   
 .title {
@@ -100,18 +112,9 @@ main{
 }
 
 .about__text{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 2.5rem;
     letter-spacing: 0.1rem;
-}
-
-/* Hall of Fame Section */
-
-.more-btn__wrapper{
-    width: 100%;
-    display: flex;
-    justify-content: end;
-    padding: 2rem 5rem;
 }
 
 /* Services Section */
@@ -122,18 +125,17 @@ main{
     background-size: cover;
 }
 
-.service__card{
-    aspect-ratio: 0.7/1;
-    align-items: center;
+.service-icon{
+    height: calc(2vw + 2vh);
+    width: calc(2vw + 2vh);
 }
 
-.service__card > .card-body{
+.service__card > div{
     background: transparent;
     border-radius: 10px;
-    width: 100%;
-    height: 50%;
 }
-.service__card > .card-body:nth-of-type(odd){
+
+.service__card > div:nth-of-type(odd){
     background: linear-gradient(49.88deg, #38344F 4.62%, #AE66C8 95.2%);
 }
 /* .service__card > .card-body:nth-of-type(even){
@@ -170,6 +172,6 @@ main{
     }
     .hero__strokes{
         margin-left: auto;
+        padding: 0;
     }
-
 }
