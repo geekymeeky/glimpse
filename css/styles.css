@@ -234,7 +234,37 @@ main{
 }
 
 
-
+/* LATEST UPDATES SECTION */
+.custom-grid{
+    display: grid;
+    grid-template-columns: 1fr 0.7fr;
+    width: 100%;
+    align-items: center;
+    column-gap: 2rem;
+    height: 70vh;
+}
+.grid-left{
+    
+}
+.grid-left > .card{
+    height: 300px;
+}
+.grid-left>.card>img {
+    object-fit: cover;
+    height: 100%;
+}
+.grid-right{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+.grid-right > .card{
+    height: 133px;
+    overflow: hidden;
+}
+.card > img{
+    object-fit: cover;
+}
 
 @media screen and (max-width: 600px) {
     body{
