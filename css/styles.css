@@ -24,9 +24,8 @@ body{
     background-size: 70%;
     background-position-y: -20vh;
     background-position-x: 50%;
-    font-family: 'Cera Pro Regular', sans-serif;
+    font-family: 'Cera Pro Regular', sans-serif !important;
     color: #fff;
-
 }
 
 main{
@@ -232,8 +231,6 @@ main{
     font-family: 'Cera Pro Regular';
 
 }
-
-
 
 
 @media screen and (max-width: 600px) {
