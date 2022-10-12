@@ -197,6 +197,7 @@ main{
 #update-carousel .card{
     border: none;
 }
+
 #update-carousel .card-body{
     position: absolute;
     text-align: left;
