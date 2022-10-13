@@ -20,10 +20,10 @@ body{
     background-color: #191930;
     background-repeat: no-repeat;
     /* background-image:  url("../static/images/cloud_1.svg"), url("../static/images/cloud_0.svg"); */
-    background-image:   url("../static/images/cloud_2.svg");
-    background-size: 70%;
-    background-position-y: -20vh;
-    background-position-x: 50%;
+    /* background-image:   url("../static/images/cloud_2.svg"); */
+    /* background-size: 70%; */
+    /* background-position-y: -20vh; */
+    /* background-position-x: 50%; */
     font-family: 'Cera Pro Regular', sans-serif !important;
     color: #fff;
 }
@@ -45,8 +45,8 @@ main{
     background-image:  url("../static/images/cloud_1.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-blend-mode: multiply;
+    background-position: 50% 25%;
+    min-height: 100vh;
 
 }
 
@@ -60,7 +60,7 @@ main{
 
 .hero__text{
     color: #fff;
-    font-size: 2.6rem;
+    font-size: calc(1.5vw + 1vh);
     font-family: 'Cera Pro Medium';
     line-height: 3rem;
     /* letter-spacing: 0.2rem; */
@@ -68,14 +68,14 @@ main{
 }
 .hero__text span:nth-of-type(1){
     font-family: 'Cera Pro Medium';
-    font-size: 9.5rem;
+    font-size: calc(9vw + 1vh);
     letter-spacing: 1.8rem;
     line-height: 8rem;
     font-weight: 400;
 }
 .hero__text span:nth-of-type(2){
     font-family: 'Cera Pro Medium';
-    font-size: 3rem;
+    font-size: calc(2.7vw + 1vh);
     letter-spacing: 1.8rem;
     line-height: 4rem;
 }
@@ -266,6 +266,12 @@ main{
 }
 .card > img{
     object-fit: cover;
+}
+
+@media screen and (max-width: 1440px) {
+    .service__card{
+        scale: 0.8;
+    }
 }
 
 @media screen and (max-width: 600px) {
