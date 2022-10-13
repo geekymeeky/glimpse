@@ -80,8 +80,8 @@ main{
 }
 
 .hero__strokes{
-    height: 150.95;
-    width: 159.77;
+    margin-left: auto;
+    margin-right: 3rem;
 }
 
 .navbar-brand>img{
