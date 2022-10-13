@@ -100,4 +100,15 @@ $(document).ready(function () {
     var slide = $(Parent).attr("data-slide");
     ResCarousel(ell, Parent, slide);
   }
+  var mc = new Hammer(document.querySelector(".MultiCarousel"));
+  mc.on("panleft panright", function(ev) {
+    if (ev.type == "panright") {
+      document.querySelector(".leftLst").click();
+    }
+    if (ev.type == "panleft") {
+      document.querySelector(".rightLst").click();
+    }
+  });
 });
+
+
