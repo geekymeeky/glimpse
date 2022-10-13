@@ -323,8 +323,12 @@ button.btn-outline-light.gradient:hover {
         letter-spacing: 0.5rem;
     }
     .hero__strokes{
-        margin-left: auto;
-        padding: 0;
+        margin-top: 2rem !important;
+    }
+    .title{
+        font-family: 'Cera Pro Medium';
+        font-size: 1.5rem;
+        letter-spacing: 0.1rem;
     }
 }
 
