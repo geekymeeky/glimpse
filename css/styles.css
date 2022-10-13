@@ -60,23 +60,24 @@ main{
 
 .hero__text{
     color: #fff;
-    font-size: 3rem;
+    font-size: 2.6rem;
     font-family: 'Cera Pro Medium';
-    line-height: 2rem;
-    letter-spacing: 0.2rem;
-    font-weight: 500;
+    line-height: 3rem;
+    /* letter-spacing: 0.2rem; */
+    font-weight: 300;
 }
 .hero__text span:nth-of-type(1){
     font-family: 'Cera Pro Medium';
-    font-size: 5.5rem;
-    letter-spacing: 0.8rem;
-    line-height: 6rem;
+    font-size: 9.5rem;
+    letter-spacing: 1.8rem;
+    line-height: 8rem;
     font-weight: 400;
 }
 .hero__text span:nth-of-type(2){
     font-family: 'Cera Pro Medium';
-    font-size: 2rem;
-    letter-spacing: 1rem;
+    font-size: 3rem;
+    letter-spacing: 1.8rem;
+    line-height: 4rem;
 }
 
 .hero__strokes{
