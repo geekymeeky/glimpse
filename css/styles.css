@@ -121,6 +121,24 @@ main{
     letter-spacing: 0.1rem;
 }
 
+/* Gradient Button */ 
+button.btn-outline-light.gradient {
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), var(--gradient);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #111020 inset;
+}
+  
+button.btn-outline-light.gradient:hover {
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), var(--gradient);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
 /* Services Section */
 #services{
     background: url('../static/images/services/bg.svg');
@@ -246,7 +264,7 @@ main{
     width: 100%;
     align-items: center;
     column-gap: 2rem;
-    height: 70vh;
+    min-height: 50vh;
 }
 /* .grid-left{
     
@@ -270,23 +288,6 @@ main{
 .card > img{
     object-fit: cover;
 }
-
-button.btn-outline-light.gradient {
-    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
-    border: solid 3px transparent;
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), var(--gradient);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-    box-shadow: 2px 1000px 1px #111020 inset;
-  }
-  
-  button.btn-outline-light.gradient:hover {
-    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
-    border: solid 3px transparent;
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), var(--gradient);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-  }
 
 @media screen and (max-width: 1440px) {
     .service__card{
