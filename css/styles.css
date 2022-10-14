@@ -41,7 +41,7 @@ main{
 }
 
 .section{
-    padding: calc(2vw + 1vh) 5vw;
+    padding: calc(2vw + 1vh) 3vw;
 }
 
 #hero{
@@ -50,7 +50,6 @@ main{
     background-repeat: no-repeat;
     background-position: 50% 25%;
     min-height: 100vh;
-
 }
 
 .nav-link {
@@ -306,6 +305,7 @@ button.btn-outline-light.gradient:hover {
     #hero{
         background-size: 120%;
         background-position: center;
+        min-height: auto;
     }
     .container-fluid{
         border-radius: 0px;
@@ -331,7 +331,7 @@ button.btn-outline-light.gradient:hover {
     }
     .title{
         font-family: 'Cera Pro Medium';
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         letter-spacing: 0.1rem;
     }
     .navbar-brand>img{
