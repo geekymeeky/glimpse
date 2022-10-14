@@ -303,6 +303,10 @@ button.btn-outline-light.gradient:hover {
         border-radius: none;
         margin: 0;
     }
+    #hero{
+        background-size: 120%;
+        background-position: center;
+    }
     .container-fluid{
         border-radius: 0px;
     }
@@ -321,7 +325,9 @@ button.btn-outline-light.gradient:hover {
         letter-spacing: 0.5rem;
     }
     .hero__strokes{
-        margin-top: 2rem !important;
+        height: 8rem;
+        padding: 0;
+        margin-right: 0;
     }
     .title{
         font-family: 'Cera Pro Medium';
