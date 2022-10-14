@@ -61,6 +61,7 @@ main{
     border: none;
 }
 
+
 .hero__text{
     color: #fff;
     font-size: calc(1.5vw + 1vh);
@@ -88,9 +89,6 @@ main{
     margin-right: 3rem;
 }
 
-.navbar-brand>img{
-    width: 10rem;
-}
 
 /*  About Section*/
 
@@ -329,6 +327,9 @@ button.btn-outline-light.gradient:hover {
         font-family: 'Cera Pro Medium';
         font-size: 1.5rem;
         letter-spacing: 0.1rem;
+    }
+    .navbar-brand>img{
+        width: 10rem;
     }
 }
 
