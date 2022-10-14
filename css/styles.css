@@ -1,18 +1,22 @@
 @font-face {
   font-family: 'Cera Pro Black';
-  src: url('../static/fonts/Cera\ Pro\ Black.ttf');
+  src: url('../static/fonts/cera-pro/Cera\ Pro\ Black.otf');
 }
 @font-face {
     font-family: 'Cera Pro Medium';
-    src: url('../static/fonts/Cera\ Pro\ Medium.ttf');
+    src: url('../static/fonts/cera-pro/Cera\ Pro\ Medium.otf');
 }
 @font-face {
     font-family: 'Cera Pro Bold';
-    src: url('../static/fonts/Cera\ Pro\ Bold.ttf');
+    src: url('../static/fonts/cera-pro/Cera\ Pro\ Bold.otf');
 }
 @font-face {
     font-family: 'Cera Pro Regular';
-    src: url('../static/fonts/Cera\ Pro\ Regular.ttf');
+    src: url('../static/fonts/cera-pro/Cera\ Pro\ Regular.otf');
+}
+@font-face {
+    font-family: 'Cera Pro Thin';
+    src: url('../static/fonts/cera-pro/Cera\ Pro\ Light.otf');
 }
 
 :root{
@@ -105,17 +109,30 @@ main{
   
 .title {
     position: relative;
+    width: 100%;
 }
 
 .title::before {
     content: "";
     position: absolute;
     top: 0;
-    width: 60%;
+    width: 50%;
     left: 0;
     height: 3px;
     border-radius: 2px;
     background: var(--gradient);
+}
+.title::after {
+    content: attr(data-after-content);
+    position: absolute;
+    font-size: 0.8rem;
+    line-height: 1;
+    left: 52%;
+    top: -6px;
+    width: 100%;
+    height: fit-content;
+    text-transform: uppercase;
+    font-family: 'Cera Pro Light', sans-serif;  
 }
 
 .about__text{
