@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="302.152" height="413.702" viewBox="0 0 302.152 413.702">
-  <g id="Rectangle_93" data-name="Rectangle 93" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="14.173">
-    <rect width="302.152" height="413.702" rx="32.69" stroke="none"/>
-    <rect x="7.087" y="7.087" width="287.979" height="399.529" rx="25.603" fill="none"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 302.15 413.7"><defs><style>.cls-1{fill:url(#linear-gradient);}</style><linearGradient id="linear-gradient" y1="206.85" x2="302.15" y2="206.85" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1f1c2f"/><stop offset="0.01" stop-color="#1f1c2f"/><stop offset="0.13" stop-color="#27243a"/><stop offset="0.42" stop-color="#35324e"/><stop offset="0.71" stop-color="#3e3b5a"/><stop offset="1" stop-color="#413e5e"/></linearGradient></defs><g id="Layer_2" data-name="Layer 2"><g id="SERVICES"><g id="SWITCHES"><path class="cls-1" d="M269.46,14.17A18.54,18.54,0,0,1,288,32.69V381a18.54,18.54,0,0,1-18.52,18.52H32.69A18.54,18.54,0,0,1,14.17,381V32.69A18.54,18.54,0,0,1,32.69,14.17H269.46m0-14.17H32.69A32.7,32.7,0,0,0,0,32.69V381A32.69,32.69,0,0,0,32.69,413.7H269.46A32.68,32.68,0,0,0,302.15,381V32.69A32.69,32.69,0,0,0,269.46,0Z"/></g></g></g></svg>
