@@ -19,6 +19,10 @@
     src: url('../static/fonts/cera-pro/Cera\ Pro\ Light.otf');
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 :root{
     --gradient: linear-gradient(90deg, #7237BD 0%, #FD0988 99.8%);
     --text-gradient:-webkit-linear-gradient(0deg, #FCDC00 0%
