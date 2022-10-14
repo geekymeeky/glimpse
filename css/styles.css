@@ -21,7 +21,7 @@
 
 :root{
     --gradient: linear-gradient(90deg, #7237BD 0%, #FD0988 99.8%);
-    --text-gradient:-webkit-linear-gradient(#FCDC00 0%
+    --text-gradient:-webkit-linear-gradient(0deg, #FCDC00 0%
     ,#FBC519 10%
     ,#FA954E 32%
     ,#F96E79 53%
