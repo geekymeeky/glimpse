@@ -404,6 +404,17 @@ button.btn-outline-light.gradient:hover {
     .client__text{
         font-size: calc(0.8vw + 0.8vh);
     }
-
+    .custom-grid{
+        display: flex;
+        flex-direction: column;
+    }
+    .grid-right{
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.5rem;
+    }
+    .grid-left > .card{
+        height: auto;
+    }
 }
 
