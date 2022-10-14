@@ -189,6 +189,13 @@ button.btn-outline-light.gradient:hover {
     height: 206.5px;
 }
 
+.wave__stroke{
+    max-width: 15vw;
+    position: absolute;
+    right: 0;
+    top:-16vh;
+}
+
 
 .MultiCarousel {
     float: left;
@@ -365,5 +372,18 @@ button.btn-outline-light.gradient:hover {
         height: calc(3vw + 3vh);
         width: calc(3vw + 3vh);
     }
+    .wave__stroke{
+        max-width: 15vw;
+        position: absolute;
+        right: 0;
+        top:-10vh;
+    }
+    .fa-2x{
+        scale: 0.8;
+    }
+    .client__text{
+        font-size: calc(0.8vw + 0.8vh);
+    }
+
 }
 
