@@ -335,12 +335,38 @@ button.btn-outline-light.gradient:hover {
     object-fit: cover;
 }
 
-
-
-@media screen and (max-width: 1440px) {
-    .service__card{
-        scale: 0.8;
-    }
+.service__grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);   
+    padding-left: 5rem;
+}
+.service__card {
+    height: 300px;
+    width: 200px;
+    margin: 0;
+}
+.service-icon {
+    height: 30px;
+    width: auto;
+}
+.service__card > .top-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px 40px 0px;
+}
+.service__card>.bottom-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px 40px 0px;
+}
+.service__card>div:nth-of-type(odd) {
+    background: linear-gradient(49.88deg, #38344F 4.62%, #AE66C8 95.2%);
+    border-radius: 25px;
+    height: 130px;
 }
 
 @media screen and (max-width: 600px) {
@@ -388,19 +414,34 @@ button.btn-outline-light.gradient:hover {
     .navbar-brand>img{
         width: 10rem;
     }
-    .service__card{
-        height: 300px;
-        width: 200px;
-        margin: 0 auto;
+    .service__grid {
+        grid-template-columns: 1fr 1fr;
+        padding: unset;
+        column-gap: 2rem;
+        
+        place-items: center;
     }
-    .service__card > div:nth-of-type(odd){
+    .service__card {
+        height: 250px;
+        width: 150px;
+        margin: 0;
+    }
+    .service-icon {
+        height: 20px;
+        width: auto;
+    }
+
+    .service__card>.top-wrap {        
+        padding: 20px 20px 0px;
+    }
+
+    .service__card>.bottom-wrap {       
+        padding: 15px 20px 0px;
+    }
+    .service__card>div:nth-of-type(odd) {
         background: linear-gradient(49.88deg, #38344F 4.62%, #AE66C8 95.2%);
-        border-radius: 35px;
-        height: 150px;
-    }
-    .service-icon{
-        height: calc(3vw + 3vh);
-        width: calc(3vw + 3vh);
+        border-radius: 15px;
+        height: 100px;
     }
     .wave__stroke{
         max-width: 15vw;
