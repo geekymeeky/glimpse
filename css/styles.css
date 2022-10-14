@@ -230,6 +230,7 @@ button.btn-outline-light.gradient:hover {
 }
 .MultiCarousel .MultiCarousel-inner .item {
     float: left;
+    cursor: pointer;
 }
 .MultiCarousel .MultiCarousel-inner .item > div {
     text-align: center;
@@ -254,6 +255,13 @@ button.btn-outline-light.gradient:hover {
     background:#ccc;
 }
 
+.MultiCarousel-inner img{
+    width: 95%;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
 
 .carousel-indicators li{
     background-color: transparent !important;
@@ -326,6 +334,8 @@ button.btn-outline-light.gradient:hover {
 .card > img{
     object-fit: cover;
 }
+
+
 
 @media screen and (max-width: 1440px) {
     .service__card{
