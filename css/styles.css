@@ -397,6 +397,7 @@ button.btn-outline-light.gradient:hover {
 .container-fluid.section.portfolio{
     margin: 0;
     padding: unset;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 600px) {
