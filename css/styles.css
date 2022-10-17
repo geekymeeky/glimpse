@@ -63,6 +63,7 @@ main{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50% 25%;
+    background-attachment: local;
     min-height: 100vh;
 }
 
@@ -405,6 +406,15 @@ button.btn-outline-light.gradient:hover {
         background-position: center;
         min-height: auto;
     }
+    #hero > div:nth-child(2){
+        margin: 6rem auto;
+    }
+    .navbar{
+        z-index: 1030!important;
+        position: absolute;
+        background-color: #111020;
+    }
+
     .container-fluid{
         border-radius: 0px;
     }
