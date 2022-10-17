@@ -77,9 +77,9 @@ main{
 
 .hero__text{
     color: #fff;
-    font-size: calc(1.5vw + 1vh);
+    font-size: calc(1.85vw + 1.35vh);
     font-family: 'Cera Pro Medium';
-    line-height: 3rem;
+    line-height: 1.2;
     /* letter-spacing: 0.2rem; */
     font-weight: 300;
 }
@@ -87,14 +87,14 @@ main{
     font-family: 'Cera Pro Medium';
     font-size: calc(9vw + 1vh);
     letter-spacing: 1.8rem;
-    line-height: 8rem;
+    line-height: 1;
     font-weight: 400;
 }
 .hero__text span:nth-of-type(2){
     font-family: 'Cera Pro Medium';
     font-size: calc(2.7vw + 1vh);
     letter-spacing: 1.8rem;
-    line-height: 4rem;
+    line-height: 1;
 }
 
 .hero__strokes{
@@ -172,8 +172,11 @@ button.btn-outline-light.gradient:hover {
 #services{
     background: url('../static/images/services/bg.svg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 70%; 
+    background-position: 0 100%;
+    min-height: 80vh;
 }
+
 
 .service-icon{
     height: calc(2vw + 2vh);
@@ -212,20 +215,19 @@ button.btn-outline-light.gradient:hover {
 .wave__stroke{
     max-width: 15vw;
     position: absolute;
-    right: 0;
-    top:-16vh;
+    right: 15px;
 }
 
 
 .MultiCarousel {
     float: left;
     overflow: hidden;
-    width: 100%;
     position:relative;
 }
 .MultiCarousel .MultiCarousel-inner {
     transition: 1s ease all;
     float: left;
+    width: 100vw;
 }
 
 .MultiCarousel::after {
@@ -406,7 +408,7 @@ button.btn-outline-light.gradient:hover {
         letter-spacing: 0.1rem;
     }
     .hero__text span:nth-of-type(1){
-        font-size: 4rem;
+        font-size: 3rem;
         letter-spacing: 0.5rem;
         line-height: 5.5rem;
     }
@@ -421,8 +423,11 @@ button.btn-outline-light.gradient:hover {
     }
     .title{
         font-family: 'Cera Pro Medium';
-        font-size: 1.8rem;
+        font-size: 1.2rem;
         letter-spacing: 0.1rem;
+    }
+    .title::after {
+        font-size: 0.6rem;
     }
     .navbar-brand>img{
         width: 10rem;
@@ -459,8 +464,8 @@ button.btn-outline-light.gradient:hover {
     .wave__stroke{
         max-width: 15vw;
         position: absolute;
-        right: 0;
-        top:-10vh;
+        right: 15px;
+        top:-8vh;
     }
     .fa-2x{
         scale: 0.8;
