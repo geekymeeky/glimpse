@@ -60,10 +60,9 @@ main{
 
 #hero{
     background-image:  url("../static/images/cloud_1.svg");
-    background-size: contain;
+    background-size: 85%;
     background-repeat: no-repeat;
-    background-position: 50% 25%;
-    background-attachment: local;
+    background-position: 50% 70%;
     min-height: 100vh;
 }
 
@@ -79,20 +78,20 @@ main{
 .hero__text{
     color: #fff;
     font-size: calc(1.85vw + 1.35vh);
-    font-family: 'Cera Pro Medium';
+    font-family: 'Cera Pro Bold';
     line-height: 1.2;
     /* letter-spacing: 0.2rem; */
     font-weight: 300;
 }
 .hero__text span:nth-of-type(1){
-    font-family: 'Cera Pro Medium';
+    font-family: 'Cera Pro Black';
     font-size: calc(9vw + 1vh);
-    letter-spacing: 1.8rem;
+    letter-spacing: 1.5rem;
     line-height: 1;
     font-weight: 400;
 }
 .hero__text span:nth-of-type(2){
-    font-family: 'Cera Pro Medium';
+    font-family: 'Cera Pro Bold';
     font-size: calc(2.7vw + 1vh);
     letter-spacing: 1.8rem;
     line-height: 1;
@@ -392,6 +391,10 @@ button.btn-outline-light.gradient:hover {
 }
 .about__img{
     margin-left: auto;
+    object-fit: contain;
+    width: unset;
+    height: unset;
+    padding-bottom: 2rem;
 }
 
 .container-fluid.section.portfolio{
