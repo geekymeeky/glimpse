@@ -1,22 +1,22 @@
 @font-face {
   font-family: 'Cera Pro Black';
-  src: url('../static/fonts/cera-pro/Cera\ Pro\ Black.otf');
+  src: url('../static/fonts/cera-pro/Cera\ Pro\ Black.otf') format('opentype');
 }
 @font-face {
     font-family: 'Cera Pro Medium';
-    src: url('../static/fonts/cera-pro/Cera\ Pro\ Medium.otf');
+    src: url('../static/fonts/cera-pro/Cera\ Pro\ Medium.otf') format('opentype');
 }
 @font-face {
     font-family: 'Cera Pro Bold';
-    src: url('../static/fonts/cera-pro/Cera\ Pro\ Bold.otf');
+    src: url('../static/fonts/cera-pro/Cera\ Pro\ Bold.otf') format('opentype');
 }
 @font-face {
     font-family: 'Cera Pro Regular';
-    src: url('../static/fonts/cera-pro/Cera\ Pro\ Regular.otf');
+    src: url('../static/fonts/cera-pro/Cera\ Pro\ Regular.otf') format('opentype');
 }
 @font-face {
     font-family: 'Cera Pro Thin';
-    src: url('../static/fonts/cera-pro/Cera\ Pro\ Light.otf');
+    src: url('../static/fonts/cera-pro/Cera\ Pro\ Light.otf') format('opentype');
 }
 
 html{
