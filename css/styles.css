@@ -384,6 +384,12 @@ button.btn-outline-light.gradient:hover {
     height: 130px;
 }
 
+.double__stroke{
+    max-width: 10vw;
+    position: absolute;
+    right: 15px;
+}
+
 @media screen and (max-width: 600px) {
     body{
         background-size: 80vh;
@@ -422,9 +428,12 @@ button.btn-outline-light.gradient:hover {
         margin-right: 0;
     }
     .title{
-        font-family: 'Cera Pro Medium';
-        font-size: 1rem;
+        font-family: 'Cera Pro Thin';
+        font-size: 1.1rem;
         letter-spacing: 0.1rem;
+        line-height: 1.5rem;
+        font-weight: 100;
+        padding: 0.8rem 0;
     }
     .title::after {
         font-size: 0.6rem;
@@ -462,9 +471,12 @@ button.btn-outline-light.gradient:hover {
         height: 100px;
     }
     .wave__stroke{
-        max-width: 15vw;
+        max-width: 25vw;
         position: absolute;
         right: 15px;
+    }
+    .double__stroke{
+        max-width: 20vw;
     }
     .fa-2x{
         scale: 0.8;
