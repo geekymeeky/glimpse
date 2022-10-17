@@ -423,7 +423,7 @@ button.btn-outline-light.gradient:hover {
     }
     .title{
         font-family: 'Cera Pro Medium';
-        font-size: 1.2rem;
+        font-size: 1rem;
         letter-spacing: 0.1rem;
     }
     .title::after {
@@ -465,7 +465,6 @@ button.btn-outline-light.gradient:hover {
         max-width: 15vw;
         position: absolute;
         right: 15px;
-        top:-8vh;
     }
     .fa-2x{
         scale: 0.8;
@@ -477,13 +476,14 @@ button.btn-outline-light.gradient:hover {
         display: flex;
         flex-direction: column;
     }
+
     .grid-right{
         display: flex;
         flex-direction: column;
-        row-gap: 0.5rem;
     }
     .grid-left > .card{
         height: auto;
+        margin: 2rem auto;
     }
 }
 
