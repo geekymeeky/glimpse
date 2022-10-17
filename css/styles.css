@@ -147,8 +147,8 @@ main{
 }
 .about__text.gradient{
     background: var(--text-gradient);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* Gradient Button */ 
@@ -390,6 +390,14 @@ button.btn-outline-light.gradient:hover {
     position: absolute;
     right: 15px;
 }
+.about__img{
+    margin-left: auto;
+}
+
+.container-fluid.section.portfolio{
+    padding: 5px;
+    margin: 0;
+}
 
 @media screen and (max-width: 600px) {
     body{
@@ -404,15 +412,18 @@ button.btn-outline-light.gradient:hover {
     #hero{
         background-size: 120%;
         background-position: center;
-        min-height: auto;
+        min-height: unset;
     }
     #hero > div:nth-child(2){
-        margin: 6rem auto;
+        margin: 6rem auto 2rem auto;
     }
     .navbar{
         z-index: 1030!important;
         position: absolute;
         background-color: #111020;
+    }
+    .about__text{
+        padding: unset;
     }
 
     .container-fluid{
