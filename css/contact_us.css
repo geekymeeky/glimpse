@@ -1,0 +1,73 @@
+#contact__form input:focus,
+#contact__form textarea:focus {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+#contact__form input::placeholder,
+#contact__form textarea::placeholder {
+    color: #FFF !important;
+    opacity: 1;
+}
+
+#contact__form textarea {
+    background-attachment: local;
+    background-image:
+        linear-gradient(to right, #111020 10px, transparent 10px),
+        linear-gradient(to left, #111020 10px, transparent 10px),
+        repeating-linear-gradient(#111020, #111020 30px, #404040 30px, #404040 31px, #111020 31px);
+    line-height: 31px;
+    padding: 8px 10px;
+    margin: 0 0 10px;
+    border: none !important;
+    color: #FFF !important;
+    overflow: hidden;
+}
+
+
+
+.gradient-box__input {
+    position: relative;
+    box-sizing: border-box;
+    color: #FFF;
+    background: #111020;
+    background-clip: padding-box;
+    /* !importanté */
+    border: solid 1px transparent;
+    /* !importanté */
+    border-radius: 500px;
+}
+
+.gradient-box__input:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -1px;
+    /* !importanté */
+    border-radius: inherit;
+    /* !importanté */
+    background: linear-gradient(90deg, #FCDC00 0%, #FBC519 10%, #FA954E 32%, #F96E79 53%, #F95397 72%, #F83CB0 100%);
+}
+
+.gradient-box__input > input {
+    border-radius: 500px;
+    outline: none !important;
+    background: transparent !important;
+    border: none !important;
+    height: 4rem;
+    color: #FFF !important;
+}
+
+
+.gradient-box__div {
+    border-image: linear-gradient(90deg, #FCDC00 0%, #FBC519 10%, #FA954E 32%, #F96E79 53%, #F95397 72%, #F83CB0 100%);
+    border-width: 1px;
+    min-height: 1rem;
+    border-image-slice: 1;
+    border-style: solid;
+}

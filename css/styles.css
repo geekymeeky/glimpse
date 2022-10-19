@@ -410,6 +410,14 @@ button.btn-outline-light.gradient:hover {
     overflow: hidden;
 }
 
+
+.contact__text{
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.1rem;
+    padding: 1rem 2rem 1rem 0;
+}
+
 @media screen and (max-width: 600px) {
     body{
         background-size: 80vh;
