@@ -12,6 +12,7 @@
 }
 
 #contact__form textarea {
+    
     background-attachment: local;
     background-image:
         linear-gradient(to right, #111020 10px, transparent 10px),
