@@ -1,3 +1,9 @@
+#contact__form{
+    width: 100%;
+    z-index: 2;
+    padding: 0 6rem;
+}
+
 #contact__form input:focus,
 #contact__form textarea:focus {
     border: none !important;
@@ -71,4 +77,11 @@
     min-height: 1rem;
     border-image-slice: 1;
     border-style: solid;
+}
+
+@media (max-width: 768px) {
+    #contact__form {
+        padding: 0 1rem;
+        margin: 1rem 0;
+    }
 }
