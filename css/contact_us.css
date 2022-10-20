@@ -80,9 +80,21 @@
     border-image-slice: 1;
     border-style: solid;
 }
-
+  
 @media (max-width: 768px) {
     #contact__form {
         padding: 0 1rem;
+    }
+    /* Overrides */
+    .title{
+        font-family: 'Cera Pro Thin';
+        font-size: 1.8rem;
+        letter-spacing: 0.1rem;
+        line-height: 1.5rem;
+        padding: 0.8rem 0;
+    }
+    .contact__text{
+        font-size: 1rem !important;
+        padding: 0 1rem !important;
     }
 }
