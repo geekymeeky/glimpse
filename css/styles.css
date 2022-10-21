@@ -150,6 +150,12 @@ main{
     -webkit-text-fill-color: transparent;
 }
 
+.gradient-text{
+    background: var(--text-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /* Gradient Button */ 
 button.btn-outline-light.gradient {
     box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
@@ -423,6 +429,50 @@ button.btn-outline-light.gradient:hover {
     height: 100%;
     object-fit: cover;
     padding: 0 2.4rem;
+}
+
+
+.footer__gradient-box__input {
+    position: relative;
+    box-sizing: border-box;
+    color: #FFF;
+    background: #111020;
+    background-clip: padding-box;
+    /* !importanté */
+    border: solid 1px transparent;
+    /* !importanté */
+}
+
+.footer__gradient-box__input:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -1px;
+    /* !importanté */
+    border-radius: inherit;
+    /* !importanté */
+    background: linear-gradient(90deg, #FCDC00 0%, #FBC519 10%, #FA954E 32%, #F96E79 53%, #F95397 72%, #F83CB0 100%);
+}
+
+.footer__gradient-box__input > input {
+    outline: none !important;
+    background: transparent !important;
+    border: none !important;
+    height: 4rem;
+    color: #FFF !important;
+}
+
+
+
+.footer__input-wrapper{
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
 }
 
 @media screen and (max-width: 600px) {
