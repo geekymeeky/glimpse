@@ -462,8 +462,15 @@ button.btn-outline-light.gradient:hover {
     outline: none !important;
     background: transparent !important;
     border: none !important;
-    height: 4rem;
+    height: 3.5rem;
     color: #FFF !important;
+}
+
+.footer__gradient-box__input > input:focus {
+    outline: none !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none;
 }
 
 
