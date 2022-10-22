@@ -25,11 +25,11 @@
 #contact__form textarea {
     
     line-height: 41px;
-    background-image: -webkit-linear-gradient(left, #111020 0, transparent 0), -webkit-linear-gradient(right, #111020 0, transparent 0), -webkit-linear-gradient(#111020 40px, #404040 40px, #404040 41px, #111020 41px);
+    background-image: -webkit-linear-gradient(left, var(--bg-color) 0, transparent 0), -webkit-linear-gradient(right, var(--bg-color) 0, transparent 0), -webkit-linear-gradient(var(--bg-color) 40px, #404040 40px, #404040 41px, var(--bg-color) 41px);
     background-repeat: repeat-y;
     background-size: 100% 100%, 100% 100%, 100% 41px;
     background-attachment: local;
-    border: 10px solid #111020 !important;
+    border: 10px solid var(--bg-color) !important;
     color: #FFF !important;
     overflow: auto;
 }
@@ -40,7 +40,7 @@
     position: relative;
     box-sizing: border-box;
     color: #FFF;
-    background: #111020;
+    background: var(--bg-color);
     background-clip: padding-box;
     /* !importanté */
     border: solid 1px transparent;

@@ -31,6 +31,7 @@ html{
     ,#F96E79 53%
     ,#F95397 72%
     ,#F83CB0 100%);
+    --bg-color: #0D0B17;
 }
 
 body{
@@ -50,7 +51,7 @@ main{
     margin: 2vw auto;
     display: flex;
     flex-direction: column;
-    background-color: #0d0b179f;
+    background-color: var(--bg-color);
     border-radius: 2vw;
 }
 
@@ -163,7 +164,7 @@ button.btn-outline-light.gradient {
     background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), var(--text-gradient);
     background-origin: border-box;
     background-clip: content-box, border-box;
-    box-shadow: 2px 1000px 1px #111020 inset;
+    box-shadow: 2px 1000px 1px var(--bg-color) inset;
 }
   
 button.btn-outline-light.gradient:hover {
@@ -436,7 +437,7 @@ button.btn-outline-light.gradient:hover {
     position: relative;
     box-sizing: border-box;
     color: #FFF;
-    background: #111020;
+    background: var(--bg-color);
     background-clip: padding-box;
     /* !importanté */
     border: solid 1px transparent;
@@ -509,7 +510,7 @@ button.btn-outline-light.gradient:hover {
     .navbar{
         z-index: 1030!important;
         position: absolute;
-        background-color: #111020;
+        background-color: var(--bg-color);
     }
     .about__text{
         padding: unset;
