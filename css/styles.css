@@ -179,9 +179,10 @@ button.btn-outline-light.gradient:hover {
 #services{
     background: url('../static/images/services/bg.svg');
     background-repeat: no-repeat;
-    background-size: 70%; 
-    background-position: 0 100%;
-    min-height: 80vh;
+    background-size: 70em; 
+    background-position-y: bottom;
+    background-position-x: left;
+    min-height: 700px;
 }
 
 
