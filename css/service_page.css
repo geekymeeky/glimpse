@@ -1,0 +1,39 @@
+.service-page__icon {
+    aspect-ratio: 1/1;
+    width: 6rem;
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.service-page__icon+p {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.service-page__icon-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 3rem;
+    text-align: center;
+}
+
+#service-page__carousel .carousel-indicators>button {
+    border-radius: 1rem;
+    opacity: 1 !important;
+}
+
+#service-page__carousel .carousel-indicators>button.active {
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0);
+    border: solid 2px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), var(--text-gradient);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
