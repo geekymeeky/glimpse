@@ -368,7 +368,7 @@ button.btn-outline-light.gradient:hover {
 .service__grid{
     display: grid;
     grid-template-columns: repeat(4, 1fr);   
-    padding-left: 5rem;
+    place-items: center;
 }
 .service__card {
     height: 300px;
