@@ -98,12 +98,6 @@ main{
     line-height: 1;
 }
 
-.hero__strokes{
-    margin-left: auto;
-    margin-right: 3rem;
-}
-
-
 /*  About Section*/
 
 .title{
@@ -489,6 +483,12 @@ button.btn-outline-light.gradient:hover {
     font-size: 1.2rem;
 }
 
+.hero-stroke__wrapper{
+    position: relative;
+    left: -5rem;
+    top: -1rem;
+}
+
 @media screen and (max-width: 600px) {
     body{
         background-size: 80vh;
@@ -539,10 +539,12 @@ button.btn-outline-light.gradient:hover {
         font-size: 1.6rem;
         letter-spacing: 0.5rem;
     }
-    .hero__strokes{
-        height: 8rem;
-        padding: 0;
-        margin-right: 0;
+    .hero-stroke__wrapper{
+        position: relative;
+        left: unset;
+        top: unset;
+        right: 0;
+        text-align: end;
     }
     .title{
         font-family: 'Cera Pro Thin';
