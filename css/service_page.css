@@ -70,4 +70,14 @@
     #service-page__wrapper{
         margin-top: 5rem;
     }
+    .innerpage__title {
+        font-size: 1.5rem;
+        font-family: 'Cera Pro Bold';
+        letter-spacing: 0.3rem;
+        line-height: 1.2;
+    }
+    .logo {
+        width: 100px;
+    }
+    
 }
