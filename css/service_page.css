@@ -54,15 +54,33 @@
 .innerpage__section-wrapper {
     padding: 0;
     margin: 5.3rem auto;
+    font-size: 1.2rem;
+    padding: 2rem 0;
 }
 
-.innerpage__section-wrapper {
-    font-size: 1.2rem;
+.innerpage__section-wrapper:last-of-type {
+    margin: 5.3rem auto;
+    margin-top: calc(5.3rem + 4rem);
+    margin-bottom: 3rem;
+}
+
+.innerpage__img{
+    max-width: 100%;
+    padding: 0 1rem;
+    object-fit: contain;
+}
+
+.innerpage__img-title{
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    font-family: 'Cera Pro Regular', sans-serif;
+    word-spacing: 0.1rem;
 }
 
 .innerpage__section-title {
     font-family: 'Cera Pro Medium', sans-serif;
-    font-size: 1.8rem;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
 }
 
 
