@@ -40,6 +40,32 @@
 }
 
 
+.innerpage__title {
+    font-size: 3.8rem;
+    font-family: 'Cera Pro Bold';
+    letter-spacing: 0.3rem;
+    line-height: 1.2;
+}
+
+.logo {
+    width: 165px;
+}
+
+.innerpage__section-wrapper {
+    padding: 0;
+    margin: 5.3rem auto;
+}
+
+.innerpage__section-wrapper {
+    font-size: 1.2rem;
+}
+
+.innerpage__section-title {
+    font-family: 'Cera Pro Medium', sans-serif;
+    font-size: 1.8rem;
+}
+
+
 @media screen and (max-width: 768px) {
     #service-page__wrapper{
         margin-top: 5rem;
