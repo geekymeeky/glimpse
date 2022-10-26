@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181.02 181.22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 2.33px;
+      }
+
+      .cls-2 {
+        fill: #171726;
+      }
+
+      .cls-3 {
+        fill: #1f1c2f;
+      }
+
+      .cls-4 {
+        fill: #fff;
+        font-family: CeraPro-Bold, 'Cera Pro';
+        font-size: 76.84px;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="BRANDING">
+    <g>
+      <g>
+        <path class="cls-3" d="M181.02,21.4V90.61H0V21.4C0,9.58,9.59,0,21.41,0H159.62c11.82,0,21.4,9.58,21.4,21.4Z"/>
+        <path class="cls-2" d="M0,159.82V90.61H181.02v69.21c0,11.82-9.59,21.4-21.41,21.4H21.4c-11.82,0-21.4-9.58-21.4-21.4Z"/>
+      </g>
+      <rect class="cls-1" x="20.55" y="20.55" width="140.11" height="140.11" rx="16.5" ry="16.5"/>
+      <text class="cls-4" transform="translate(42.52 115.12)"><tspan x="0" y="0">Dn</tspan></text>
+    </g>
+  </g>
+</svg>
