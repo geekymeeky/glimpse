@@ -75,6 +75,9 @@ main{
     border: none;
 }
 
+.navbar-brand>img{
+    max-width: 80%;
+}
 
 .hero__text{
     color: #fff;
